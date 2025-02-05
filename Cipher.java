@@ -26,7 +26,7 @@ public class Cipher
         // output string will be collected in this variable, one char at a time
         String outputString = "";
         
-       for(int i = 0; i<inputString.length;i++)
+       for(int i = 0; i<inputString.length();i++)
        {
         outputString+=replaceChar(inputString.charAt(i),false);
        }
